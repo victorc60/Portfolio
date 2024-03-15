@@ -1,0 +1,52 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+.skills__card-wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  padding: 15px 30px;
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  max-width: 200px;
+  width: 100%;
+  max-height: 450px;
+  height: 100%;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: circle;
+  font-weight: 500;
+  padding: 5x 20px;
+  color: darkblue;
+}
+
+.lang-paragr {
+  font-weight: 600;
+  margin-top: 10px;
+}
+@media (max-width: 1250px) {
+  .skills__card-wrapper {
+    flex-wrap: wrap;
+  }
+}

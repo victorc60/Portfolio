@@ -1,0 +1,22 @@
+:root {
+  --primaryColor: #fff;
+  --navColor2: rgba(42, 120, 131, 0.6);
+  --navColor3: rgba(186, 43, 32, 0.6);
+  --navColor1: rgba(246, 79, 10, 0.6);
+  --navColor4: rgba(24, 4, 170, 0.6);
+  --navColor5: rgba(59, 9, 0, 0.8);
+  --backColor: rgb(215, 195, 172);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+section {
+  background-color: var(--backColor);
+}

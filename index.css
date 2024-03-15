@@ -1,0 +1,27 @@
+@import "/styles/about.css";
+@import "/styles/style.css";
+@import "/styles/reset.css";
+@import "/styles/skills.css";
+@import "/styles/projects.css";
+@import "/styles/contacts.css";
+@import "/styles/home.css";
+@import "/styles/mobile-m.css";
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-one {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+.heading-three {
+  font-size: 24px;
+  text-align: center;
+}

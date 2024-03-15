@@ -1,0 +1,68 @@
+.about-me {
+  justify-content: start;
+  width: 100%;
+  align-items: start;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 20px;
+}
+.about__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.about__skills {
+  max-width: 600px;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__skills-list {
+  margin: 20px 0 0 0;
+  padding: 0 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  letter-spacing: 3px;
+  font-size: 22px;
+  color: darkblue;
+  font-weight: 500;
+}
+
+.about__skills-parag {
+  margin: 20px 0 0 0;
+  font-size: 22px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.my-photo {
+  margin-top: 45px;
+  height: 400px;
+  width: 600px;
+  border: 12px solid rgba(244, 216, 180, 0.592);
+}
+
+@media (max-width: 1500px) {
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .my-photo {
+    margin-top: 25px;
+    height: 300px;
+    width: 450px;
+    border: 4px solid rgba(244, 216, 180, 0.592);
+  }
+}
