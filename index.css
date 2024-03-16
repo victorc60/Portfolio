@@ -25,3 +25,18 @@
   font-size: 24px;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  .heading-one {
+    font-size: 26px;
+  }
+  .heading-three {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading-one {
+    font-size: 22px;
+  }
+}

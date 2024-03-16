@@ -59,35 +59,40 @@ function showForm() {
 contactBtn.addEventListener("click", showForm);
 
 //////////////////
-new Swiper(".mySwiper", {
-  breakpoints: {
-    1600: {
-      slidesPerView: 2,
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".mySwiper", {
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
     },
-    //   480: {
-    //     slidesPerView: 2,
-    //     spaceBetween: 10,
-    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1100: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      750: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
 
-    //   320: {
-    //     slidesPerView: 1,
-    //   },
-  },
-
-  slidesPerView: 3,
-  loop: true,
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+      550: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+    },
+  });
 });
