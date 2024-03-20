@@ -87,7 +87,7 @@ li a:hover::before {
 
 .menu-bars {
   position: absolute;
-  top: 40px;
+  top: 45px;
 
   right: 100px;
   z-index: 10;

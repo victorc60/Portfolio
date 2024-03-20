@@ -34,7 +34,7 @@
   font-size: 20px;
   border: none;
   outline: none;
-  color: var(--navColor2);
+  color: var(--navColor5);
 
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.3);
@@ -114,8 +114,8 @@ textarea {
 }
 
 .nav__list a:hover {
-  border-bottom: 2px solid var(--navColor2);
-  transition: ease-out 0.5s;
+  border-bottom: 2px solid var(--navColor5);
+  transition: ease-out 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -125,8 +125,6 @@ textarea {
 }
 
 @media (max-width: 950px) {
-  .nav {
-  }
   .nav__list {
     padding-left: 40px;
     gap: 30px;
@@ -140,6 +138,17 @@ textarea {
 }
 @media (max-width: 850px) {
   .nav {
+    padding-bottom: 10px;
+  }
+
+  .tagline {
+    font-size: 22px !important;
+  }
+  .form {
+    top: 75px;
+  }
+  .home__content {
+    gap: 30px;
   }
   .nav__list {
     padding-left: 20px;

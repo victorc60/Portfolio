@@ -14,9 +14,7 @@ html {
 }
 
 body {
-  margin: 0;
-  background: #000;
-}
-section {
+  margin: 0 !important;
   background-color: var(--backColor);
+  /* background: #000; */
 }

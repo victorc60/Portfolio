@@ -35,3 +35,15 @@ i {
   color: var(--navColor3);
   font-size: 30px;
 }
+
+@media (max-width: 550px) {
+  .contact__wrapper-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    max-width: 300px;
+    width: 100%;
+    gap: 20px;
+    font-size: 12px;
+  }
+}
